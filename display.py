@@ -3,7 +3,7 @@ import sys
 
 from pikepdf import Pdf, Name
 
-doubleFirst = ["Violon II"]
+doubleFirst = []
 
 def set_page_display(filename: str):
     if not filename.endswith(".pdf"):
